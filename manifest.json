@@ -23,7 +23,7 @@
     ],
     "theme_color": "#FFFFFF",
     "background_color": "#FFFFFF",
-    "start_url": "/calculator-app/",
-    "display": "standalone",
+    "start_url": "/PWA-Calculator/",
+    "display": "standalone", 
     "orientation": "portrait"
 }
