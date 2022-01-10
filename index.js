@@ -62,3 +62,9 @@ for(let button of Buttons){
         // display.innerText += btnValue;
     })
 }
+
+// Todos
+
+// 1. Improve on the UI of the app
+// 2. Make the backspace and % button work.
+// 3. Add currency converter to the calculator
