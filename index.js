@@ -36,15 +36,15 @@ for(let button of Buttons){
         const {innerText: btnValue} = button;
         const btnValueIsSymbol = allSymbols.includes(btnValue);
 
-        if (btnValue === "<-"){
-            // display.innerText.value.slice(0, display.innerText.value -1)
-            firstVal = secondVal = symbol = ''
-            var displayedValue = display.innerText;
+        // if (btnValue === "<-"){
+        //     // display.innerText.value.slice(0, display.innerText.value -1)
+        //     firstVal = secondVal = symbol = ''
+        //     var displayedValue = display.innerText;
            
-            displayedValue = ''
-            // displayedValue.slice(0,- 1);
-            console.log("backspace clicked")
-        }
+        //     displayedValue = ''
+        //     // displayedValue.slice(0,- 1);
+        //     console.log("backspace clicked")
+        // }
 
         if (!secondVal && btnValue === '=') return null
         if(btnValue === 'C'){
